@@ -1,0 +1,11 @@
+Control de versiones Git
+creamos una carpera donde estaran las claves ssh
+luego abrimos git BASH desde la carpeta creada
+1 $ ssh-keygen -t rsa -b 4096 -C "colocamos correo electronico"
+2  ingresamos un nombre del archivo donde estara nuestra clave
+3 abrimos el archivo para copiar la clave al git SSH keys
+4 asociamos el codigo generado a la cuenta  de github
+5 creamos el proyecto en Guthub para posterior clonarlo
+6 cambiamos en nombre del proyecto para poder clonarlo
+y no de error por tener el mismo nombre
+
