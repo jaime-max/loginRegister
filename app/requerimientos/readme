@@ -8,4 +8,13 @@ luego abrimos git BASH desde la carpeta creada
 5 creamos el proyecto en Guthub para posterior clonarlo
 6 cambiamos en nombre del proyecto para poder clonarlo
 y no de error por tener el mismo nombre
+7  git clone 'copiamos el link git del protyecto'
+8 Copiamos archvios a la carpeta clonada
+9 ingresamos a la carpeta clonada  cd "NOMBRE CARPETA"
+10 git status
+11 git add -f app/ agreamos la carpeta o archivos que desemos subir al git
+11 git commit -m "add carpetas agregamos"
+12 git push
+13 
+
 
