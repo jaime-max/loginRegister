@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+    <body class="text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <form method="post" class="form-signin" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <div class="form-group">
+                        <input type="file" class="form-control-file" name="myfile" id="myfile">
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Subir Archivo</button>
+                </form>
+                {% if uploaded_file_url %}
+                    <p>Archivo subido en: <a href="{{ uploaded_file_url }}">{{ uploaded_file_url }}</a></p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    </body>
+{% endblock %}

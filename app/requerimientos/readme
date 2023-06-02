@@ -15,6 +15,13 @@ y no de error por tener el mismo nombre
 11 git add -f app/ agreamos la carpeta o archivos que desemos subir al git
 11 git commit -m "add carpetas agregamos"
 12 git push
-13 
+
+Funciones de Django
+{% csrf_token %} Seguirdad en los formularios que tiene Django
+
+
+librerias
+pip install crispy-bootstrap5
+python -m pip install Pillow
 
 
